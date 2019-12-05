@@ -1,0 +1,36 @@
+1) What is the Big O for this?
+  1) Shouting at room - Constant time complexity. Whether there are 5 or 50 people in the room, you make 1 shout to everyone.
+  2) Asking each person - Linear complexity. You need to walk up to each person, so as that grows so does time to talk to everyone.
+  
+2. Even or odd
+  Constant, O(1), as it is only looking at one input and only returning a single result based on that input.
+
+3. Are you here?
+Linear time, O(n). There are 2 functions and they each output an array that is compared to each other, so it depends on the size of i and j.
+
+4. Doubler
+Linear time, O(n). It will double each item in array, so it is based on the array size.
+
+5. Naive search
+Linear time, O(n). Depends on length of the array if it will return the result or not.
+
+6. Creating pairs:
+Linear time, O(n). Depends on length of the arrays before it will complete everything.
+
+7. Compute the sequence 
+Linear time, O(n). It takes a input and will either return 1 or 2, if it is that number, or it will sum
+the result of the input number(s) minus 2 and input number(s) minus 3.
+
+8. An efficient search
+Linear time, O(n). It will find the half way point of the number until it matches the current index. So if it is a large array, 
+it will take longer.
+
+9. Random element
+Linear time, O(n). It will return a random number based on the random function multiplied by the length of array.
+
+10. What Am I?
+Takes input n and returns true or false, on if it is divisible by 2 or not.
+
+Tower of Hanoi:
+https://youtu.be/0BDi0d1j7u0?t=516
+
